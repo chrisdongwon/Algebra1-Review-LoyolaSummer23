@@ -6,7 +6,9 @@ categories: lecture notes
 katex: True
 ---
 
-Let us begin with some basic notions of arithmetic:  
+## Natural Numbers
+
+Let us begin with some basic notions of arithmetic (number theory):  
 
 * Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$  
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
@@ -15,6 +17,8 @@ Notice that the only reasonable operation to perform on the natural numbers is a
 
 Also, it appears that we just need 0 and 1 in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol 4 is simply a representation of four instance of 1's in series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
 
+## Integers
+
 When dealing with the natural numbers, notice that subtraction and division are not always meaningful. As an example, notice that $$1 - 2 = -1$$, which is not a natural number, and $$1 \div 2 = \frac{1}{2}$$, which is also not a natural number. So, we need to be slightly more cautious when dealing with subtraction and division.
 
 So, what are the requirement in order to facilitate subtraction? Let us recall that _subtraction_, in an algebraic sense, is addition by the negative, technically referred to as the additive inverse. So, now we introduce the notion of **integers**:
@@ -22,7 +26,9 @@ So, what are the requirement in order to facilitate subtraction? Let us recall t
 * Integers: $$\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$$  
 (Here, $$\mathbb{Z}$$ represents the set of integers. Z stands for Zahlen, German for numbers).  
 
-Now, the number 0 has a bit more significance than it did with just the natural numbers. Of course, any number added to 0 is simply that number. This was true with the natural numbers as well. However, with the introduction of the negative whole numbers, we also see that whenever a number is paired with its negative in addition, the sum will always be 0. In this sense, we refer to 0 as the _additive identity_. Why the fancy terms? You will see why when we start discussing division.  
+Now, the number 0 has a bit more significance than it did with just the natural numbers. Of course, any number added to 0 is simply that number. This was true with the natural numbers as well. However, with the introduction of the negative whole numbers, we also see that whenever a number is paired with its negative in addition, the sum will always be 0. In this sense, we refer to 0 as the _additive identity_. Why the fancy terms? You will see why when we start discussing division.
+
+## Rational Numbers
 
 In a similar sense, it appears that the existence of _fractions_ is the requirement to facilitate the operation that we referred to as division. Analogously, in an algebraic sense, division is multiplication by the _multiplicative inverse_, and we refer to the inverse here as the **reciprocal**. 
 
@@ -30,7 +36,15 @@ The notion of fraction and division are closely related - at the end of the day,
 
 As far as addition and subtraction were concerned, it appears that for all integers, there exists a negative inverse, namely the _opposites_. For examples, $$1 + (-1) = 0$$, $$(-50) + -(-50) = 0$$, and similarly, $$0 + (-0) = 0$$. So, a natural question to ask is, **does any integer have a reciprocal?**
 
-For the most part, yes, with one critical exception - namely zero. To see why 0 does not have a reciprocal, i.e. the multiplicative inverse, let us consider what we mean by being able to divide in the first place. As a motivating example, we see that 3 divides into 27 because 3 times 9 is 27. We see that 5 divides into 40 because 5 times 8 is 40. Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers between 2 and 3 and it appears that such figure is precisely the requirement for 2 to be divisible by 5. Let us formalize this intuition.  
+For the most part, yes, with one critical exception - namely zero. To see why 0 does not have a reciprocal, i.e. the multiplicative inverse, let us consider what we mean by being able to divide in the first place. As a motivating example, we see that 3 divides into 27 because 3 times 9 is 27. We see that 5 divides into 40 because 5 times 8 is 40.  
 
-We say a number is divisible by the dividend if there exists some integer such that the integer times the dividend is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$ (More on variables in Unit 2). So, if 0 has a reciprocal, then that means 0 divides into some integer. As a concrete example, let's see if 0 divides 100. Suppose that 0 divides 100. Then, it looks like 0 times some integer is 100. However, 0 times any number is simply 0. Does 100 equal to 0? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that 0 does not divide 100. As a matter of fact, 100 can be replaced with any nonzero integer, and the same conclusion holds. This implies that 0 does not divide any number and hence there does NOT exist a reciprocal (the multiplicative inverse) for 0.
+Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers between 2 and 3 and it appears that such figure is precisely the requirement for 2 to be divisible by 5. Let us formalize this intuition.  
+
+We say a number is divisible by the dividend if there exists some integer such that the integer times the dividend is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$ (More on variables in Unit 2).  
+
+So, if 0 has a reciprocal, then that means 0 divides into some integer. As a concrete example, let's see if 0 divides 100. Suppose that 0 divides 100. Then, it looks like 0 times some integer is 100. However, 0 times any number is simply 0. Does 100 equal to 0? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that 0 does not divide 100.  
+
+As a matter of fact, 100 can be replaced with any nonzero integer, and the same conclusion holds. This implies that 0 does not divide any number and hence there does NOT exist a reciprocal (the multiplicative inverse) for 0.
+
+With this notion of divisibility, let us see what kind of integers are divisible and what kind of integers are indivisible. This concept reduces to the existence of prime numbers and composite integers.
 
