@@ -1,29 +1,38 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Course Syllabus"
 date:   2023-06-20 23:57:20 -0700
-categories: jekyll update
+categories: course update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Algebra 1 Review
+Loyola High School of Los Angeles
+Summer 2023 - Won
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Syllabus
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This course is intended to be a 1 month fast-paced refresher on topics in Elementary Algebra (Algebra 1). All of the topics covered in a traditional Algebra 1 curriculum will be covered, meaning one year’s worth of curriculum will be squeezed into one month. It is imperative that you are vigilant about the coursework as the pace will be demanding. With this being said, the prerequisite for the course is that you have taken Algebra 1 before, and you are familiar with the times table. Requirements for the course are simply pen & pencil for in-class work and a connection to the internet at home for homework assignments.
 
-Jekyll also offers powerful support for code snippets:
+Grading
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+40% - MyOpenMath Online Assignments
+15% - MyOpenMath Assignment Notebook Check
+10% - In-class quizzes (there will be 2)
+15% - In-class Midterm Exam
+20% - In-class Final Exam
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+93%+ : A	90%+ : A-	87%+ : B+	83%+: B	80%+: B-	77%+: C+
+73%+: C	70%+: C-	67%+: D+	63%+ : D	60%+ : D-	60%-: F
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Course Policy
+
+No calculators for in-class activities. Calculators are permitted for some homework assignments - you do not need them for the most part.
+No laptops in class unless requested - I will be printing the Online Assignment problems and we will solve them manually in class. 
+Please be nice to one another.
+Refer to the student handbook for other inquiries.
+Academic Infractions (e.g. cheating, plagiarism) will be reported to the Dean, Ms. Evelyn Mabra.
+
+Accommodation
+
+Please refer to our Learning Specialist, Ms. Fran Marick, if you know that you qualify for extended time testing and other accommodation. Also, please feel free to mention any accommodation you may need
+
