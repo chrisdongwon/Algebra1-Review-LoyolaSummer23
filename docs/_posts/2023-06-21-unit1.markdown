@@ -6,6 +6,14 @@ categories: lecture notes
 katex: True
 ---
 
-Let us begin with some basic notions of arithmetic:
+Let us begin with some basic notions of arithmetic:  
 
-* Natural numbers: $$ \{0, 1, 2, \ldots \} $$
+* Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$  
+(Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
+
+Notice that the only reasonable operation to perform on the natural numbers is addition, and consqeuently multiplication, which is simply repeated addition in our case. 
+
+Also, it appears that we just need 0 and 1 in order to express any natural number in terms of addition. As an example, $$4 = 1 + 1 + 1 + 1$$, meaning perhaps, the symbol 4 is simply a representation of four instance of 1's in series. 
+
+When dealing with natural numbers, notice that subtraction and division are not always meaningful. As an example, notice that $$1 - 2 = -1$$, which is not a natural number, and $$1 \div 2 = \frac{1}{2}$$, which is also not an integer. So, we need to be slightly more cautious when dealing with subtraction and division. More on this later.
+
