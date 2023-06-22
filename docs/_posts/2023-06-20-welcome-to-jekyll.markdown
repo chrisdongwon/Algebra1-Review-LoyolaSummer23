@@ -15,13 +15,25 @@ This course is intended to be a 1 month fast-paced refresher on topics in Elemen
 15% - In-class Midterm Exam  
 20% - In-class Final Exam  
 
-93%+ : A	90%+ : A-	87%+ : B+	83%+: B	80%+: B-	77%+: C+
-73%+: C	70%+: C-	67%+: D+	63%+ : D	60%+ : D-	60%-: F
+## Letter Grade Distribution
+
+93%+: A  
+90%+: A-  
+87%+: B+  
+83%+: B  
+80%+: B-  
+77%+: C+  
+73%+: C  
+70%+: C-  
+67%+: D+  
+63%+: D  
+60%+: D-  
+60%-: F  
 
 ## Course Policy
 
 * No calculators for in-class activities. Calculators are permitted for some homework assignments - you do not need them for the most part.
-* No laptops in class unless requested - I will be printing the Online Assignment problems and we will solve them manually in class. 
+* No laptops in class unless requested - I will be projecting the MyOpenMath Assignment problems and we will solve many problems manually as a group. 
 * Please be nice to one another.
 * Refer to the student handbook for other inquiries.
 * Academic Infractions (e.g. cheating, plagiarism) will be reported to the Dean, Ms. Evelyn Mabra.
