@@ -14,7 +14,7 @@ Let us review the rules of arithmetics in rational numbers using variables. Let 
 2. $$b, d$$ are not zeroes  
 3. All the common primes among $$a, b$$ and $$c, d$$ have been cancelled out, respectively. In other words, $$\frac{a}{b}$$ and $$\frac{b}{d}$$ are in their simplest forms.  
 
-With this in mind, let us review some of the key properties of fraction arithmetic:  
+## Rational Number Equality & Inequality
 
 * When are two fractions equal? There are two schools of thoughts that are equivalent:
     1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
@@ -26,10 +26,14 @@ To see why the second assertion is true, consider the following. Let's say we wa
   1. If the denominators are the same, simply compare the numerators (E.g. How many slices of pie did I eat vs. did you eat?)  
   2. If the numerators are the same, then compare the denominators (E.g. Is a slice of a whole pizza cut in half bigger than a slice of a whole pizze sliced up in 20 equally sized slices?) Notice that greater the denominator, smaller the quantity.  
   3. Algebraically, $$\frac{a}{b} < \frac{c}{d}$$ if $$ad < bc$$, provided that the fractions in comparison are both positive to begin with.
+  
+## Addition and Multiplication in Rational Numbers
 
 * Adding/subtracting Fractions: Recall that addition and subtraction in fraction only makes sense when we have a common denominator. Thus, the proposed formula gives us _any_ sum and differences of two fractions: $$\frac{a}{b} \pm \frac{c}{d} = \frac{ad \pm bc}{bd}$$. 
 
 * Multiplying/dividing Fractions: Luckily, multiplication and division are more natural operations to perform on fractions. Similarly, we state that $$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}$$ and $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c} = \frac{ad}{bc}$$.
+
+## Exponentiation (a.k.a. Powers)
 
 Lastly, let us recall the notion of _exponents_ (also known as _powers_). In order to understand what we mean by exponents, let us make a simple analogy:  
 
