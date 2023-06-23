@@ -26,7 +26,7 @@ So, what are the requirement in order to facilitate subtraction? Let us recall t
 * Integers: $$\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$$  
 (Here, $$\mathbb{Z}$$ represents the set of integers. Z stands for Zahlen, German for numbers).  
 
-Now, the number 0 has a bit more significance than it did with just the natural numbers. Of course, any number added to 0 is simply that number. This was true with the natural numbers as well. However, with the introduction of the negative whole numbers, we also see that whenever a number is paired with its negative in addition, the sum will always be 0. In this sense, we refer to 0 as the _additive identity_. Why the fancy terms? You will see why when we start discussing division.
+Now, the number 0 has a bit more significance than it did with just the natural numbers. Of course, any number added to 0 is simply that number. This was true with the natural numbers as well. However, with the introduction of the negative whole numbers, we also see that whenever a number is paired with its negative in addition, the sum will always be 0. In this sense, we refer to 0 as the _additive identity_, and analogously, we say that 1 is the _multiplicative identity_ as any number multiplied by 1 is simply itself. So, what is up with all the fancy terms here? You will see why when we start discussing division.
 
 ## Divisibility
 
@@ -63,14 +63,18 @@ This proposition binds nicely with the definition of prime and composite numbers
 
 What about 1? Well, first of all, 1 is less than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
 
+And lastly, this argument works for any integer, as any nonnegative integer is simply a natural number and a negative integer is simply a natural number multiplied by -1, where the natural numbers here have unique prime factorization to begin with.  
+
 ## Rational Numbers
 
 Now, we have enough background to really _define_ what we mean by fractions. Mathematicians refer to fractions as the _rational numbers_, hence both the terms will be used interchangeably.
 
 * Rational number: a number of the form $$\frac{n}{d}$$, where  
     1. $$n$$ and $$d$$ are integers  
-    2. $$d$$ is not zero
-    3. are common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_. 
+    2. $$d$$ is not zero (For the reasons detailed in the above section)
+    3. are common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
+
+As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator, 
 
 If these conditions are not satisfied, then we are looking at a number that appears to be a fraction but it really is not a fraction, mathematically speaking. We refer to the set of rational numbers with the symbol $$\mathbb{Q}$$. Why Q? Please let me know if you figure this out. 
 
