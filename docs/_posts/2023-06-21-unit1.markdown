@@ -63,3 +63,11 @@ This proposition binds nicely with the definition of prime and composite numbers
 
 What about 1? Well, first of all, 1 is less than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
 
+Now, we have enough background to really _define_ what we mean by fractions. Mathematicians refer to fractions as the _rational numbers_, hence both the terms will be used interchangeably.
+
+* Rational number: a number of the form $$\frac{n}{d}$$, where  
+    1. $$n$$ and $$d$$ are integers  
+    2. $$d$$ is not zero
+    3. are common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_. 
+
+If these conditions are not satisfied, then we are looking at a number that appears to be a fraction but it really is not a fraction, mathematically speaking. Finally, we refer to the set of rational numbers with the symbol $$\mathbb{Q}$$. Why Q? Please let me know if you figure this out. 
