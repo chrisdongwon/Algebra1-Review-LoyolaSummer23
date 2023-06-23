@@ -78,4 +78,6 @@ As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d
 
 If these conditions are not satisfied, then we are looking at a number that appears to be a fraction but it really is not a fraction, mathematically speaking. We refer to the set of rational numbers with the symbol $$\mathbb{Q}$$. Why Q? Please let me know if you figure this out. 
 
+Lastly, we can easily see that all integers are rational numbers: simply set the denominator to be 1. 
+
 In the following section, the notion of variables will be slightly more formalized along with the review of the arithmetic operations on the rational numbers.
