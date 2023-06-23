@@ -28,7 +28,7 @@ So, what are the requirement in order to facilitate subtraction? Let us recall t
 
 Now, the number 0 has a bit more significance than it did with just the natural numbers. Of course, any number added to 0 is simply that number. This was true with the natural numbers as well. However, with the introduction of the negative whole numbers, we also see that whenever a number is paired with its negative in addition, the sum will always be 0. In this sense, we refer to 0 as the _additive identity_. Why the fancy terms? You will see why when we start discussing division.
 
-## Rational Numbers
+## Divisibility
 
 In a similar sense, it appears that the existence of _fractions_ is the requirement to facilitate the operation that we referred to as division. Analogously, in an algebraic sense, division is multiplication by the _multiplicative inverse_, and we refer to the inverse here as the **reciprocal**. 
 
@@ -46,5 +46,8 @@ So, if 0 has a reciprocal, then that means 0 divides into some integer. As a con
 
 As a matter of fact, 100 can be replaced with any nonzero integer, and the same conclusion holds. This implies that 0 does not divide any number and hence there does NOT exist a reciprocal (the multiplicative inverse) for 0.
 
-With this notion of divisibility, let us see what kind of integers are divisible and what kind of integers are indivisible. This concept reduces to the existence of prime numbers and composite integers.
+With this notion of divisibility, let us see what kind of integers are divisible and what kind of integers are indivisible. This concept reduces to the existence of the prime numbers and the composite integers.
 
+## Primality
+
+We witnessed how any natural number can be represented by adding a _bunch_ of 1's. In a similar sense, can we represent any negative integer with a repeated addition of -1. As an example, see that -3 = (-1) + (-1) + (-1). So, as the bare minimum, it appears that -1, 0, and 1 are the _building blocks_ for the set of integers in the context of addition. 
