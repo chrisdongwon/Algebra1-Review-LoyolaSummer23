@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Unit 2: Variables"
+date:   2023-06-21
+categories: lecture notes
+katex: True
+---
+
+Let us recall that a variable is simply a representation of any number. Traditionally, $$x$$ is the designated letter/symbol for a variable. When other variables need to be referenced, other letters can be used as well. However, let us remember that same instance of the variables refer to the same value. As an example, the expression $$x \cdot x$$ refers to certain arbitrary $$x$$ x value whose value for the left $$x$$ is the same as the right $$x$$. 
+
