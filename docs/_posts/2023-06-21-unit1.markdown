@@ -50,4 +50,16 @@ With this notion of divisibility, let us see what kind of integers are divisible
 
 ## Primality
 
-We witnessed how any natural number can be represented by adding a _bunch_ of 1's. In a similar sense, can we represent any negative integer with a repeated addition of -1. As an example, see that -3 = (-1) + (-1) + (-1). So, as the bare minimum, it appears that -1, 0, and 1 are the _building blocks_ for the set of integers in the context of addition. 
+We witnessed how any natural number can be represented by adding a _bunch_ of 1's. In a similar sense, can we represent any negative integer with a repeated addition of -1. As an example, see that -3 = (-1) + (-1) + (-1). So, as the bare minimum, it appears that -1, 0, and 1 are the _building blocks_ for the set of integers in the context of addition. What kind of analogy can we make here in regards to multiplication?  
+
+In other words, can we represent any integer by multiplying a bunch of numbers? If so, what are those _numbers_ called? This brings us to the notion of [the Fundamental Theorem of Arithmetic](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that:  
+
+**Any natural number greater than 1 is either a prime, or a product of primes, where such product is uniquely determined by the primes and their exponents.** (Uniqueness here simply means there is only one way and one way only to write such _prime factorization_. As an intuitive example, $$4 = 2^2$$, and this is the only way to express 4 as a product of primes.)  
+
+This proposition binds nicely with the definition of prime and composite numbers. Hence, let us recall that:  
+
+* Prime: any natural number greater than 1 that is divisible by only 1 and the number itself.  
+* Composite: any natural number greater than 3 that is not prime. 
+
+What about 1? Well, first of all, 1 is less than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
+
