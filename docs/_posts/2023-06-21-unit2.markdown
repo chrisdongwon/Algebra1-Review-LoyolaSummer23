@@ -6,5 +6,18 @@ categories: lecture notes
 katex: True
 ---
 
-Let us recall that a variable is simply a representation of any number. Traditionally, $$x$$ is the designated letter/symbol for a variable. When other variables need to be referenced, other letters can be used as well. However, let us remember that same instance of the variables refer to the same value. As an example, the expression $$x \cdot x$$ refers to certain arbitrary $$x$$ x value whose value for the left $$x$$ is the same as the right $$x$$. 
+Let us recall that a variable is simply a representation of any number. Traditionally, $$x$$ is the designated letter/symbol for a variable. When other variables need to be referenced, other letters can be used as well. However, let us remember that same instance of the variables refer to the same value. As an example, the expression $$x \cdot x$$ refers to multiplication where the left $$x$$ and the right $$x$$ refer to the same value designated for $$x$$. 
 
+Let us review the rules of arithmetics in rational numbers using variables. Let $$\frac{a}{b}$$ and $$\frac{c}{d}$$ be rational numbers. Recall that this implies the following:
+
+1.  $$a, b, c, d$$ are all integers  
+2. $$b, d$$ are not zeroes  
+3. All the common primes among $$a, b$$ and $$c, d$$ have been cancelled out, respectively. In other words, $$\frac{a}{b}$$ and $$\frac{b}{d}$$ are in their simplest forms.  
+
+With this in mind, let us review some of the key properties of fraction arithmetic:  
+
+* When are two fractions equal? There are two schools of thoughts that are equivalent:
+    1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
+    2. When $$$ad = bc$ ("Cross-multiplication" tecnique).
+
+To see why the second assertion is true, consider the following. Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{b}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator / divisor. So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \cdot 1 = \frac{a}{b} \cdot \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \cdot \frac{c}{d}= \frac{b}{b} \cdot \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
