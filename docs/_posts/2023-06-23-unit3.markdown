@@ -16,4 +16,8 @@ In order to facilitate this process, it is beneficial to have the expressions as
 
 1. Addition and multplication are commutative, i.e. order does not matter. Mathematically,  
 
-`For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.`  
+> For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
+<p style="text-align: center;"> Sample text with center alignment For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$ </p>  
+
+2. Addition and multiplication are associative, i.e. the pairing does not matter. Mathematically,
+
