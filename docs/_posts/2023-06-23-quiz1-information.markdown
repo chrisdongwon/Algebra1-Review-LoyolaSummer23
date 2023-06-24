@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quiz 1 Information / Study Guide"
-date:   2023-06-23
+date:   2023-06-23 00:00:00 +0000
 categories: course update
 ---
 

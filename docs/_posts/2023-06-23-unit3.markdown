@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unit 3: Algebraic Expressions"
-date:   2023-06-23
+date:   2023-06-23 00:00:00 +0000
 categories: lecture notes
 katex: True
 ---
@@ -16,4 +16,4 @@ In order to facilitate this process, it is beneficial to have the expressions as
 
 1. Addition and multplication are commutative, i.e. order does not matter. Mathematically,  
 
-For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
+> For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
