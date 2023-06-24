@@ -20,7 +20,7 @@ In order to facilitate this process, it is beneficial to have the expressions as
 
 1. Addition and multplication are commutative, i.e. order does not matter. Symbolically, for all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
 
-2. Addition and multiplication are associative, i.e. the pairing does not matter. Symbolically, for all numbers $$a, b, c$$, we have $$(a+b)+c=a+(b+c)$$ and $$a(bc)=a(bc)$$. 
+2. Addition and multiplication are associative, i.e. the pairing does not matter. Symbolically, for all numbers $$a, b, c$$, we have $$(a+b)+c=a+(b+c)$$ and $$(ab)c=a(bc)$$. 
 
 3. Addition and multiplication have identity elements, respectively. Let us recall that the _additive identity_ is a fancy name for 0 and _multiplicative identity_ is a fancy name for 1. Mathematically,
     * For any number $$a$$, there exists a number $$b$$ such that $$a + b = a$$. Here, we say that $$b$$ is the _additive identity_ of $$a$$, meaning $$b = 0$$.  
