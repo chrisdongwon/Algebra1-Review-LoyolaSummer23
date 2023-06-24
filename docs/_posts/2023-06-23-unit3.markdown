@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Unit 3: Algebraic Expressions"
+date:   2023-06-23
+categories: lecture notes
+katex: True
+---
+
+An algebraic expression is simply a mathematical sequence of numbers and symbols where the symbols represent [variables](https://chrisdongwon.github.io/Algebra1-Review-LoyolaSummer23/lecture/notes/2023/06/21/unit2.html). An equation is a mathematical expression where there is an _equals_ ($$=$$) sign somewhere in the middle of the sequence. In other words, we are concerned whether the left hand side of the equals sign will be _equivalent_, if not _identical_ to the expression on the other side. In evaluating these algebraic expressions will help us answer whether or not an algebraic equality is a true statement or not. What do I mean by this? For an example, consider the following algebraic equation:  
+$$3x + 7 = 9x - 11$$  
+Sure, you might have been told how to proceed with these types of expressions _mechanically_. Without doing any "solving" (solving for algebraic equality will be the main focus of the next section), let us simply look at the algebraic expression as it is written - then the question really boils down to the following:  
+**For what $$x$$ values would I make the left hand side equal to the right hand side?**
