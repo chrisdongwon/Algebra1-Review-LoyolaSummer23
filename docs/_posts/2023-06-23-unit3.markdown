@@ -14,12 +14,22 @@ Sure, you might have been told how to proceed with these types of expressions _m
 
 In order to facilitate this process, it is beneficial to have the expressions as simplified as possible. In order to simplify, here are the _rules_ of algebraic manipulation, called the [field axioms](https://mathworld.wolfram.com/FieldAxioms.html).  
 
-1. Addition and multplication are commutative, i.e. order does not matter. Mathematically,  
+1. Addition and multplication are commutative, i.e. order does not matter. Symbolically, for all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
 
-> For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$.  
-<p style="text-align: center;">For all numbers $$a$$ and $$b$$, we have $$a+b=b+a$$ and $$ab=ba$$</p>  
+2. Addition and multiplication are associative, i.e. the pairing does not matter. Symbolically, for all numbers $$a, b, c$$, we have $$(a+b)+c=a+(b+c)$$ and $$a(bc)=a(bc)$$. 
 
-2. Addition and multiplication are associative, i.e. the pairing does not matter. Mathematically,
+3. Addition and multiplication have identity elements, respectively. Let us recall that the _additive identity_ is a fancy name for 0 and _multiplicative identity_ is a fancy name for 1. Mathematically,
+    * For any number $$a$$, there exists a number $$b$$ such that $$a + b = a$$. Here, we say that $$b$$ is the _additive identity_ of $$a$$, meaning $$b = 0$$.  
+    * For any number $$a$$, there exists a number $$b$$ such that $$ab = a$$. Here, we say that $$b$$ is the _multiplicative identity_ of $$a$$, meaning $$b = 1$$.  
 
-For all numbers $$a, b, c$$, we have $$(a+b)+c=a+(b+c)$$ and $$a(bc)=a(bc)$$. 
+4. Addition and multiplication have inverse elements, respectively. Let us recall that the _additive inverse_ is a fancy name for the negative numbers and the _multiplicative inverse_ is a fancy name for the reciprocals.
+    * For any number $$a$$, there exists a number $$b$$ such that $$a + b = 0$$, Here, we say that $$b$$ is the _additive inverse_ of $$a$$, meaning $$b = -a$$.  
+    * For any nonzero number $$a$$, there exists a number $$b$$ such that $$ab = 1$$. Here, we say that $$b$$ is the _multiplicative inverse_ of $$a$$, meaning $$b = \frac{1}{a}$$. [Do you remember why zero does not have a reciprocal](https://chrisdongwon.github.io/Algebra1-Review-LoyolaSummer23/lecture/notes/2023/06/21/unit1.html)? Later on, we will also express the reciprocal with a negative exponent, i.e. $$\frac{1}{a} = a^{-1}$$. We will talk about what we mean by this in the section below.
 
+5. Distributive Property: The notion that multiplication is a repeated addition is solidified with this property. There are two versions of this property. For all numbers $$a, b, c$$, we have that:
+    * $$a(b+c) = ab + ac$$ (this is called _left distribution_) and 
+    * $$(a+b)c = ac + bc$$ (this is called _right distribution_). 
+
+## What do we mean by FOIL?
+
+## Negative Exponents
