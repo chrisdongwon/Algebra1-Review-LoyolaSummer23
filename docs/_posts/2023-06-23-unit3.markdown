@@ -7,10 +7,14 @@ katex: True
 ---
 
 An algebraic expression is simply a mathematical sequence of numbers and symbols where the symbols represent [variables](https://chrisdongwon.github.io/Algebra1-Review-LoyolaSummer23/lecture/notes/2023/06/21/unit2.html). An equation is a mathematical expression where there is an _equals_ ($$=$$) sign somewhere in the middle of the sequence. In other words, we are concerned whether the left hand side of the equals sign will be _equivalent_, if not _identical_ to the expression on the other side. In evaluating these algebraic expressions will help us answer whether or not an algebraic equality is a true statement or not. What do I mean by this? For an example, consider the following algebraic equation:  
+
 $$3x + 7 = 9x - 11$$  
+
 Sure, you might have been told how to proceed with these types of expressions _mechanically_. Without doing any "solving" (solving for algebraic equality will be the main focus of the next section), let us simply look at the algebraic expression as it is written - then the question really boils down to the following:  
 
 **For what $$x$$ values would make the left hand side equal to the right hand side?**  
+
+## The Rules of Algebra (i.e. the Field Axioms)
 
 In order to facilitate this process, it is beneficial to have the expressions as simplified as possible. In order to simplify, here are the _rules_ of algebraic manipulation, called the [field axioms](https://mathworld.wolfram.com/FieldAxioms.html).  
 
@@ -24,7 +28,7 @@ In order to facilitate this process, it is beneficial to have the expressions as
 
 4. Addition and multiplication have inverse elements, respectively. Let us recall that the _additive inverse_ is a fancy name for the negative numbers and the _multiplicative inverse_ is a fancy name for the reciprocals.
     * For any number $$a$$, there exists a number $$b$$ such that $$a + b = 0$$, Here, we say that $$b$$ is the _additive inverse_ of $$a$$, meaning $$b = -a$$.  
-    * For any nonzero number $$a$$, there exists a number $$b$$ such that $$ab = 1$$. Here, we say that $$b$$ is the _multiplicative inverse_ of $$a$$, meaning $$b = \frac{1}{a}$$. [Do you remember why zero does not have a reciprocal](https://chrisdongwon.github.io/Algebra1-Review-LoyolaSummer23/lecture/notes/2023/06/21/unit1.html)? Later on, we will also express the reciprocal with a negative exponent, i.e. $$\frac{1}{a} = a^{-1}$$. We will talk about what we mean by this in the section below.
+    * For any nonzero number $$a$$, there exists a number $$b$$ such that $$ab = 1$$. Here, we say that $$b$$ is the _multiplicative inverse_ of $$a$$, meaning $$b = \frac{1}{a}$$. [Do you remember why zero does not have a reciprocal](https://chrisdongwon.github.io/Algebra1-Review-LoyolaSummer23/lecture/notes/2023/06/21/unit1.html)? Later on, we will also express the reciprocal with a negative exponent, i.e. $$\frac{1}{a} = a^{-1}$$. We will talk about what we mean by this in unit 4.
 
 5. Distributive Property: The notion that multiplication is a repeated addition is solidified with this property. There are two versions of this property. For all numbers $$a, b, c$$, we have that:
     * $$a(b+c) = ab + ac$$ (this is called _left distribution_) and 
@@ -32,4 +36,10 @@ In order to facilitate this process, it is beneficial to have the expressions as
 
 ## What do we mean by FOIL?
 
-## Negative Exponents
+Later on, we will see this technique called FOIL, which allows us to multiply sums (to a limited degree). The acronym stands for **F**irst-**O**uter-**I**nner-**L**ast, and we can see that the application of the technique is quite literal when we consider an expression of the form $$(a+b)(c+d)$$ for some numbers $$a,b,c,d$$ - it follows that $$(a+b)(c+d) = ac + ad + bc + bd$$, where
+  * $$a$$ and $$c$$ are the first elements of each set of parentheses,
+  * $$a$$ and $$d$$ are the outer elements of each set of parentheses,
+  * $$b$$ and $$c$$ are the inner elements of each set of parentheses, and
+  * $$b$$ and $$d$$ are the last elements of each set of prentheses. 
+
+Now, we demonstrate how the left and right distributive property imply the FOIL technique. Let us begin by trying to assess what $$(a+b)(c+d)$$ should be, without relying on the FOIL technique. First of all, any number can be expressed as a sum of two other numbers. So, let us designate the varible $$k$$ to represent $$a+b$$, in other words, let us assume that $$k = a+b$$. Then, it follows that $$(a+b)(c+d) = k(c+d)$$, and by the left distributive property, we see that $$k(c+d) = kc + kd$$, and replacing $$k=a+b$$ back into the expression yields $$(a+b)c + (a+b)d$$. Now, we see that there are two occurrences of of the right distributive property, so it follows that $$(a+b)c + (a+b)d = ac + bc + ad + bd$$, and this is same as the expression we obtained via the FOIL method after rearranging a few terms.
