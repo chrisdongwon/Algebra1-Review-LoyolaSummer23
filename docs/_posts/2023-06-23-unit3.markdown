@@ -40,6 +40,6 @@ Later on, we will see this technique called FOIL, which allows us to multiply su
   * $$a$$ and $$c$$ are the first elements of each set of parentheses,
   * $$a$$ and $$d$$ are the outer elements of each set of parentheses,
   * $$b$$ and $$c$$ are the inner elements of each set of parentheses, and
-  * $$b$$ and $$d$$ are the last elements of each set of prentheses. 
+  * $$b$$ and $$d$$ are the last elements of each set of parentheses. 
 
 Now, we demonstrate how the left and right distributive property imply the FOIL technique. Let us begin by trying to assess what $$(a+b)(c+d)$$ should be, without relying on the FOIL technique. First of all, any number can be expressed as a sum of two other numbers. So, let us designate the varible $$k$$ to represent $$a+b$$, in other words, let us assume that $$k = a+b$$. Then, it follows that $$(a+b)(c+d) = k(c+d)$$, and by the left distributive property, we see that $$k(c+d) = kc + kd$$, and replacing $$k=a+b$$ back into the expression yields $$(a+b)c + (a+b)d$$. Now, we see that there are two occurrences of of the right distributive property, so it follows that $$(a+b)c + (a+b)d = ac + bc + ad + bd$$, and this is same as the expression we obtained via the FOIL method after rearranging a few terms.

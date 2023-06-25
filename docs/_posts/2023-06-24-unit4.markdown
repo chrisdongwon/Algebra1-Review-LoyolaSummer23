@@ -6,8 +6,20 @@ categories: lecture notes
 katex: True
 ---
 
+What does it mean for a variable to equal to something? The following details some rules about what it means to equal something in math:  
+
+## Equivalence Relation
+
+1. Reflexitivity: For any number $$x$$, $$x = x$$. This one is rather trivial.
+2. Symmetry: Suppose that $$a = b$$ for some numbers $$a, b$$. Then, $$b = a$$ too.
+3. Transitivity: Suppose that $$a = b$$ and $$b = c$$ for some numbers $$a,b,c$$. Then, it is also the case that $$a = c$$. 
+
+With this in mind, let us assess how one goes about solving for an appropriate value $$x$$ such that the algebraic equality remains a true statement.
+
+## SADMEP (???)
+
+In an algebraic expression, after we are told what the value of the variable is, we proceed with the computation by following the order of operations, colloquially known by the acronym PEMDAS. Thus, in order to reverse-engineer what the value of the $$x$$ should be, we intuitively should follow the order of operations **backwards**.  
+
 ## Negative Exponents and Multiplicative Inverses
 
 ## Fractional Exponents
-
-## SADMEP
