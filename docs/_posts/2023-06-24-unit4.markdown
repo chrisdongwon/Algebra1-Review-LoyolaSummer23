@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Unit 4: Algebraic Solution"
+date:   2023-06-24 00:00:00 +0000
+categories: lecture notes
+katex: True
+---
+
+## Negative Exponents and Multiplicative Inverses
+
+## Fractional Exponents
+
+## SADMEP
