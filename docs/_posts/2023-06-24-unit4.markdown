@@ -36,9 +36,19 @@ Try to see what happened for yourself - "plugging in" and "solving" are inverse 
 
 ## Negative Exponents and Multiplicative Inverses
 
-## Fractional Exponents
+We will introduce another notation to describe the reciprocals, also known as the multiplicative inverses. Let us illustrate how the negative exponents work with this example:  
 
-So far, we have seen the following operations and the inverses:
+* Notice that 2^3 = 8. Let's divide by 2.
+* Then, We obtain 2^2 = 4, and let's repeat the process until we reach exponent 0.
+* 2^1 = 2, and divide once more to obtain **2^0 = 1**. Can we continue in this fashion? Notice that we are dividing by 2 and the exponents are decreasing by one.
+* Now, let's consider $$2^{-1} = \frac{1}{2}$$. Do you see how the negative exponent here refers to the reciprocal?  
 
-* Addition: For all number $$x$$, there exists $$-x$$ such that $$x + (-x) = 0$$.
-* Multiplication: For all nonzero number $$x$$, there exists $$x^{-1}$$ such that $$xx^{-1} = 1$$.
+In this fashion, we see that for all natural number $$k$$, $$2^{-k} = \frac{1}{2^k}} = (\frac{1}{2})^k$$. Also, did the choice of 2 make have impact in our argument? I suggest that this argument works for any nonzero base.
+
+## Exponent Rules
+
+Here are some rules about exponentiation. I will be explaining why these statements are true in class.
+
+* (ab)^n = a^n b^n  
+* a^n a^m = a^{n+m}  
+* (a^n)^m = a^{nm}
