@@ -10,7 +10,7 @@ What does it mean for a variable to equal to something? The following details so
 
 ## Equivalence Relation
 
-1. Reflexitivity: For any number $$x$$, $$x = x$$. This one is rather trivial.
+1. Reflexitivity: For any number $$a$$, $$a = a$$. This one is rather trivial.
 2. Symmetry: Suppose that $$a = b$$ for some numbers $$a, b$$. Then, $$b = a$$ too.
 3. Transitivity: Suppose that $$a = b$$ and $$b = c$$ for some numbers $$a,b,c$$. Then, it is also the case that $$a = c$$. 
 
@@ -18,7 +18,21 @@ With this in mind, let us assess how one goes about solving for an appropriate v
 
 ## SADMEP (???)
 
-In an algebraic expression, after we are told what the value of the variable is, we proceed with the computation by following the order of operations, colloquially known by the acronym PEMDAS. Thus, in order to reverse-engineer what the value of the $$x$$ should be, we intuitively should follow the order of operations **backwards**.  
+In an algebraic expression, after we are told what the value of the variable is, we proceed with the computation by following the order of operations, colloquially known by the acronym PEMDAS. Thus, in order to reverse-engineer what the value of the $$x$$ should be, we intuitively should follow the order of operations **backwards**. As an illustration, consider the following:  
+
+Suppose that we are interested in finding the $$x$$ values such that the following equality holds for some numbers $$a,b,c,d$$:  
+
+$$ax+b = cx + d$$  
+
+Suppose that we are given a value for $$x$$, say $$x = 2$$. We then substitute $$2$$ for $$x$$ and proceed the computation by following the order of operations, so we would multiply 2 by $$a$$ or $$c$$, then add $$b$$ or $$d$$ depending on what side of the equation you are referring to. At the end of the day, we end up with the equation $$2a + b = 2c + d$$, which is not very useful for us unless we know more about the numbers $$a,b,c,d$$. 
+
+Instead, Let us begin by combining the like terms. Here, we just have a term with a variable $$x$$ and a constant for each side. Without the loss of generality, let's put all variables to the left hand side of the equality side. Due to the symmetry property above, the side does not really matter as long as we are consistent with the designation. Pay a special attention to the order of operations being applied in solving for $$x$$.
+
+1. **Subtract** $$b$$ and $$cx$$ from both sides: $$ax - cx = d - b$$
+2. By distributive property, we have that $$(a-c)x = d - b$$
+3. **Divide** by $$a-c$$, provided that $$a \not = c$$ (why?): $$x = \frac{d - b}{a - c}$$, where $$a \not = c$$.  
+
+Try to see what happened for yourself - "plugging in" and "solving" are inverse operations, if you think about it. This idea will be more formalized when we start discussing functions and its inverses.
 
 ## Negative Exponents and Multiplicative Inverses
 
