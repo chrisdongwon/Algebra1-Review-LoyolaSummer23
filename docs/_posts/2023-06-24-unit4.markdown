@@ -43,12 +43,12 @@ We will introduce another notation to describe the reciprocals, also known as th
 * 2^1 = 2, and divide once more to obtain **2^0 = 1**. Can we continue in this fashion? Notice that we are dividing by 2 and the exponents are decreasing by one.
 * Now, let's consider $$2^{-1} = \frac{1}{2}$$. Do you see how the negative exponent here refers to the reciprocal?  
 
-In this fashion, we see that for all natural number $$k$$, $$2^{-k} = \frac{1}{2^k}} = (\frac{1}{2})^k$$. Also, did the choice of 2 make have impact in our argument? I suggest that this argument works for any nonzero base.
+In this fashion, we see that for all natural number $$k$$, $$2^{-k} = \frac{1}{2^k} = (\frac{1}{2})^k$$. Also, did the choice of 2 make have impact in our argument? I suggest that this argument works for any nonzero base.
 
 ## Exponent Rules
 
 Here are some rules about exponentiation. I will be explaining why these statements are true in class.
 
-* (ab)^n = a^n b^n  
-* a^n a^m = a^{n+m}  
-* (a^n)^m = a^{nm}
+* $$(ab)^n = a^n b^n$$  
+* $$a^n a^m = a^{n+m}$$    
+* $$(a^n)^m = a^{nm}$$
