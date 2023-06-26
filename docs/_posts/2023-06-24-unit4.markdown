@@ -41,12 +41,4 @@ Try to see what happened for yourself - "plugging in" and "solving" are inverse 
 So far, we have seen the following operations and the inverses:
 
 * Addition: For all number $$x$$, there exists $$-x$$ such that $$x + (-x) = 0$$.
-* Multiplication: For all nonzero number $$x$$, there exists $$x^{-1}$ such that $$xx^{-1} = 1$$.  
-
-Something interesting happens when you exponentiate the second property. To see what I mean by this, let's square $$xx^{-1} = 1$$: $$(xx^{-1})^2 = 1^2 = 1$$, where  
-
-$$(xx^{-1})^2 = (xx^{-1})(xx^{-1}) = x(x^{-1}x)x^{-1}$$ by associativity, and  
-
-$$x(x^{-1}x)x^{-1} = x(xx^{-1})x^{-1}$$ by commutativity, and thus  
-
-$$x(xx^{-1})x^{-1} = (xx)(x^{-1}x^{-1}) = x^2(x^{-1})^2$$ by associativity. 
+* Multiplication: For all nonzero number $$x$$, there exists $$x^{-1}$$ such that $$xx^{-1} = 1$$.
