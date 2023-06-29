@@ -44,7 +44,7 @@ The actual exam will have different numbers for the problems, but the problem fo
 * Unit 6
   1. Plot the points (0, -4), (-3, 0), (-1, 1), (-3, 1). 
   2. Graph $$y = -3$$. What are the intecepts written in ordered pairs?
-  3. Graph $$y = |x| - 3$$. What are the intercepts?
+  3. Graph $$y = \abs{x} - 3$$. What are the intercepts?
 * Unit 7
   1. Which of the following ordered pairs satisfy the equation $$y = 2$$? (6,2), (5,3), (-1,2), (-2,2), (-3,0). Make sure to explain why and how.
   2. Graph $$y = -\frac{1}{2}x + 2$$. Identify the intercepts algebraically (i.e. not by referring to the graph).
