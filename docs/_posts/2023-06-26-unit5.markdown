@@ -5,3 +5,7 @@ date:   2023-06-26 00:00:00 +0000
 categories: lecture notes
 katex: True
 ---
+
+## What do we mean by inequality?
+
+## Interval Notation

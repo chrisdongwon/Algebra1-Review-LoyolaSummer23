@@ -1,7 +1,15 @@
 ---
 layout: post
-title:  "Unit 7: Graphs"
+title:  "Unit 7: Patterns"
 date:   2023-06-28 00:00:00 +0000
 categories: lecture notes
 katex: True
 ---
+
+## Linearity
+
+## Arithmetic and Geometric Progression
+
+## Polynomials
+
+## Nonlinearity
