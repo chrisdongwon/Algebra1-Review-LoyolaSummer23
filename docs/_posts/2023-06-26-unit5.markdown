@@ -8,4 +8,23 @@ katex: True
 
 ## What do we mean by inequality?
 
+There is this thing called the **trichotomy law** in mathematics, which state the following (rather obvious) statements: for any number $$x$$, $$x$$ is only one of the following:
+* x < 0
+* x = 0
+* x < 0
+
+This statement is useful for analyzing inequalities. For an instance, let $$a, b$$ be any numbers. Then, $$a - b$$ is a well-defined value (in other words, we can always subtract two numbers, if the numbers we are referring to include at least the integers). So, the following propositions are equivalent:
+* a < b if and only if $$b - a  > 0$$
+* a = b if and only if $$b - a = 0$$
+* a > b if and only if $$b - a < 0$$
+
+Notice that this can also be used to see which fractions are greater than the other...
+
 ## Interval Notation
+
+Suppose that $$a, b$$ are numbers where $$a < b$$ and either $$a$$ or $$b$$ can be positive or negative infinity. Then, there are four possible configurations to the __interval notation__:  
+
+* (a,b): $$a < x < b$$  
+* (a,b]: $$a < x \leq b$$  
+* [a,b): $$a \leq x < b$$  
+* [a,b]: $$a \leq x \leq b$$  

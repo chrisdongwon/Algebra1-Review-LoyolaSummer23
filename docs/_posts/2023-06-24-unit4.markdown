@@ -18,7 +18,7 @@ With this in mind, let us assess how one goes about solving for an appropriate v
 
 ## SADMEP (???)
 
-In an algebraic expression, after we are told what the value of the variable is, we proceed with the computation by following the order of operations, colloquially known by the acronym PEMDAS. Thus, in order to reverse-engineer what the value of the $$x$$ should be, we intuitively should follow the order of operations **backwards**. As an illustration, consider the following:  
+In an algebraic expression, after we are told what the value of the variable is, we proceed with the computation by following the order of operations, colloquially known by the acronym PEMDAS. Thus, in order to reverse-engineer what the value of the $$x$$ should have been to begin with, we intuitively follow the order of operations **backwards**. As an illustration, consider the following:  
 
 Suppose that we are interested in finding the $$x$$ values such that the following equality holds for some numbers $$a,b,c,d$$:  
 
@@ -32,7 +32,7 @@ Instead, Let us begin by combining the like terms. Here, we just have a term wit
 2. By distributive property, we have that $$(a-c)x = d - b$$
 3. **Divide** by $$a-c$$, provided that $$a \not = c$$ (why?): $$x = \frac{d - b}{a - c}$$, where $$a \not = c$$.  
 
-Try to see what happened for yourself - "plugging in" and "solving" are inverse operations, if you think about it. This idea will be more formalized when we start discussing functions and its inverses.
+Try to see what happened for yourself - "plugging in" and "solving" are inverse procedures, if you think about it. This idea will be more formalized when we start discussing functions and its inverses.
 
 ## Negative Exponents and Multiplicative Inverses
 
@@ -47,8 +47,8 @@ In this fashion, we see that for all natural number $$k$$, $$2^{-k} = \frac{1}{2
 
 ## Exponent Rules
 
-Here are some rules about exponentiation. I will be explaining why these statements are true in class.
+Here are some rules about exponentiation. Try to reason about why these statements are true, using the definition of exponentiation (i.e. repeated multiplication).
 
 * $$(ab)^n = a^n b^n$$
-* $$a^n a^m = a^{n+m}$$  
+* $$a^n a^m = a^{n+m}$$
 * $$(a^n)^m = a^{nm}$$
