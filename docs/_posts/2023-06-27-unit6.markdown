@@ -6,18 +6,39 @@ categories: lecture notes
 katex: True
 ---
 
-## Number Line
+Since we went over graphing during class extensively, this set of notes will be for references only.
+
+## Number Line (1 Dimension)
+
+We simply have a line stretching from left to right. In the middle, we indicate where the zero should be, and the left of the zero indicates the negative numbers and the right side indicates the positive numbers. 
 
 ### Direction?
+
+Notice that positive indicates right and negative indicates left.
 
 ## Cartesian Coordinate (2 Dimension)
 
+Perpendicular to the original number line, we attach another number line. With all the possible ordered pairs, we get the notion of a __plane__(e.g. a flat surface). 
+
 ### Direction?
+
+Similarly, we have the notion of negative and positive being left and right on the horizontal axis and top and down on the vertical axis.
 
 ## Polar Coordinate (Preview)
 
+Notice that $$(x,y)$$ indicates our where the ordered pair should be, if one were to trace $$x$$ units horizontally and $$y$$ units vertically from the origin, (0, 0). In this sense, we are just tracing a bunch of squares/rectangles. 
+
+There is this system called the polar coordinate system which utilizes circle instead of squares. So, consider the following:
+$$(r, \theta)$$ where $$r$$ is the distance from the origin (i.e. the radius) and $$\theta$$ is the angle measurement formed by rotating from the x-axis counterclockwise. Do you see how any points on the $$xy$$ plane can be represented in this manner as well?
+
 ### Direction?
 
-## 3 Dimensional CartesianCoordinate (Preview)
+Notice that the angle measurements are natural representations of the __direction__ here. Maybe, it has something to do with the __slope__ of a line...
+
+## 3 Dimensional Cartesian Coordinate (Preview)
+
+Now, try adding another axis to the $$xy$$ plane. Then, you obtain the $$xyz$$ space, also known as the 3 dimensional space. Here, we have an ordered triple $$(x,y,z)$$ instead of just $$(x,y)$$.
 
 ### Direction?
+
+Perhaps, you will learn about what we refer to as the [gradient](https://en.wikipedia.org/wiki/Gradient) when you start learning Calculus in a few years.
