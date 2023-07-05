@@ -25,6 +25,6 @@ Notice that for the sequence of odd integers, the difference is __constant__, an
 
 ## Polynomials & Nonlinearity
 
-Polynomials are of the expression: $$\displaystyle c_0 + c_1x + c_2x^2 + \ldots + c_nx^n = \sum_{i = 0}^{n} c_ix^i$$. The big E looking symbol is called "Sigma", a Greek letter that is analogous to S in the latin alphabets. Hopefully you can see that this Sigma notation simply refers to repeated addition where each constant and the exponent is determined by the __index__, i. 
+Polynomials are of the expression: $$\displaystyle c_0 + c_1x + c_2x^2 + \ldots + c_nx^n = \sum_{i = 0}^{n} c_ix^i$$. The big E looking symbol is called "Sigma", a Greek letter that is analogous to S in the latin alphabets. Hopefully you can see that this Sigma notation simply refers to repeated addition where each constant and the exponent is determined by the __index__, i. Furthermore, notice that our inputs are not only just the natural numbers, but all of the real numbers too - so think about a countinuous curve, not just a collection of dots with gaps in between. 
 
-For our class, we say that a function is linear if $i \leq 1$. Otherwise, we have a nonlinear polynomial expression, a quadratic polynomial as the smallest such example. 
+For our class, we say that a function is linear if $$i \leq 1$$. Otherwise, we have a nonlinear polynomial expression, a quadratic polynomial as the smallest such example. 
