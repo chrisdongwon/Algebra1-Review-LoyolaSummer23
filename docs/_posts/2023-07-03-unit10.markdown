@@ -16,6 +16,6 @@ Suppose that $$(x_1,y_1)$$ and $$(x_2, y_2)$$ are distinct points on the Cartesi
 For quadratic equations of the form $$ax^2 + bx + c = 0$$, where $$a,b,c$$ are nonzero:
 
 * discriminant: $$D = \sqrt{b^2 - 4ac} = (b^2 - 4ac)^{\frac{1}{2}}$$. Here, the square root is the inverse function of $$y = x^2$$. 
-* quadratic solution: $$x = \frac{-b \pm D}{2a}$$. Notice that this formula refers to 2 separate values of $$x$$. 
+* quadratic formula: $$x = \frac{-b \pm D}{2a}$$. Notice that this formula refers to 2 separate values of $$x$$. 
 
 If time allows, I will demonstrate how a technique called "completing the square" implies the quadratic formula. You will once again see this in Precalculus in the discussion of conics. 
