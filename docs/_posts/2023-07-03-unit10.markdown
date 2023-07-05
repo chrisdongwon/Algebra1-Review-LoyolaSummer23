@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Units 9 & 10: Linear Functions"
+title:  "Units 9 & 10: Linear & Quadratic Functions"
 date:   2023-07-04 00:00:00 +0000
 categories: lecture notes
 katex: True
@@ -12,3 +12,10 @@ Suppose that $$(x_1,y_1)$$ and $$(x_2, y_2)$$ are distinct points on the Cartesi
 * slope: $$m = \frac{\Delta y}{\Delta x}$$. Do you see why $$\Delta x \not = 0$$?
 * point-slope: $$y - y_i = m(x - x_i)$$, where $$i = 1, 2$$ (choose one and stick with it)
 * slope-intercept: $$y = mx + b$$, where $$m$$ is the slope and $$b$$ is the $$y$$-intercept.
+
+For quadratic equations of the form $$ax^2 + bx + c = 0$$, where $$a,b,c$$ are nonzero:
+
+* discriminant: $$D = \sqrt{b^2 - 4ac} = (b^2 - 4ac)^{\frac{1}{2}}$$. Here, the square root is the inverse function of $$y = x^2$$. 
+* quadratic solution: $$x = \frac{-b \pm D}{2a}$$. Notice that this formula refers to 2 separate values of $$x$$. 
+
+If time allows, I will demonstrate how a technique called "completing the square" implies the quadratic formula. You will once again see this in Precalculus in the discussion of conics. 
