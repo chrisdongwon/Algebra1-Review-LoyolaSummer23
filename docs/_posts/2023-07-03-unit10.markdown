@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Units 9 & 10: Linear Functions"
+date:   2023-07-04 00:00:00 +0000
+categories: lecture notes
+katex: True
+---
+
+Suppose that $$(x_1,y_1)$$ and $$(x_2, y_2)$$ are distinct points on the Cartesian plane, meaning $$x_1 \not = x_2$$ and $$y_1 \not = y_2$$. Here are the necessary formulae we would need to rely on throughout the course:
+
+* change: $$\Delta x = x_2 - x_1$$ (Same thing for y, just change x to y)
+* slope: $$m = \frac{\Delta y}{\Delta x}$$. Do you see why $$\Delta x \not = 0$$?
+* point-slope: $$y - y_i = m(x - x_i)$$, where $$i = 1, 2$$ (choose one and stick with it)
+* slope-intercept: $$y = mx + b$$, where $$m$$ is the slope and $$b$$ is the $$y$$-intercept.

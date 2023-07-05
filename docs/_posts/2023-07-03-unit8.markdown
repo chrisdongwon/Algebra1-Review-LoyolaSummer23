@@ -12,7 +12,7 @@ In mathematics, there is a notion of __well-defined__ vs. __undefined__ (or ill-
 
 Just like how we had __conditions__ for our mathematical definition of fractions, we have a similar restriction on the notion of functions as well. In order for a function to be well defined, we say that an input is designated to one and only one output, if it has a designation. Otherwise, we say that the function is ill-defined, hence undefined. Formally, we say that: for all inputs $$x_1$$ and $$x_2$$, if $$x_1 = x_2$$, then $$f(x_1) = f(x_2)$$, where $$f(x_i) = y_i$$ for $$i = 1, 2$$. (Notice that f(x) and y refer to the same value, just a different notation). 
 
-In other words, if we have to choose an output for an input, we say that it is an ill-defined function. As an example, think of a parabola sideways: $$x = y^2$$. You will easily see that for any $$x$$ value greater than 0, there exist 2 possible output values for $$x$$. Once again, just one output per input. An output may have different input values, but per input, there must be exactly upto one output. 
+In other words, if we have to choose an output for an input, we say that it is an ill-defined function. As an example, think of a parabola sideways: $$x = y^2$$. You will easily see that for any $$x$$ value greater than 0, there exist 2 possible output values for $$x$$. For an example, if $$x = 4$$, then $$y = 2$$ or $$y = -2$$. Once again, just one output per input is the requirement here. An output may have different input values, but per input, there must be exactly upto one output. 
 
 Thus, this idea is the formalization of what we refer to as the __vertical line test__. 
 
