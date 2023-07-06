@@ -6,6 +6,8 @@ categories: lecture notes
 katex: True
 ---
 
+## Not just any function, but a mathematical one.
+
 In mathematics, there is a notion of __well-defined__ vs. __undefined__ (or ill-defined). It is implied that the functions we speak of are __well-defined__ functions in mathematics, and here is what that entails:
 
 * function: a designation of a number $$x$$ to $$y$$, where the set of numbers where $$x$$ originates from is referred to as the __domain__ and the __range__ (formally, codomain) for $$y$$. Here, $$x$$ is colloquially referred to as the **input** and $$y$$ as the **output**. 
@@ -16,8 +18,13 @@ In other words, if we have to choose an output for an input, we say that it is a
 
 Thus, this idea is the formalization of what we refer to as the __vertical line test__. 
 
-## Inverse functions
+## Bijection and Inverse functions
 
-We say that the function $$f$$ is a collection (or a set) of infinitely many points $$(x, f(x))$$. We then say that the inverse of $$f$$, noted $$f^{-1}$$, is the collection of $$(f(x), x)$$, meaning the x and the y coordinates are swapped. Graphically. this corresponds to __flipping__ the graph of $$f$$ across the diagonal line, $$y = x$$. Notationwise, we need to be **extra careful** here, as -1 we see here is the reference to function inverse, not the multiplicative inverse!!! As an example, we see that the inverse function of $$y = x$$ is simply $$y = x$$, not $$x^{-1} = frac{1}{x}$$.
+We say that the function $$f$$ is a collection (or a set) of infinitely many points $$(x, f(x))$$. We then say that the inverse of $$f$$, noted $$f^{-1}$$, is the collection of $$(f(x), x)$$, meaning the x and the y coordinates are swapped. Graphically. This corresponds to __flipping__ the graph of $$f$$ across the diagonal line, $$y = x$$. Notationwise, we need to be **extra careful** here, as -1 we see here is the reference to function inverse, not the multiplicative inverse!!! As an example, we see that the inverse function of $$y = x$$ is simply $$y = x$$, not $$x^{-1} = \frac{1}{x}$$.
 
-If time allows in class, I will introduce the notion of __one-to-one__ and __onto__ functions. 
+Let us examine what type of functions there are, in a broad sense. 
+
+* one-to-one function:
+* onto function:
+
+A function that is both one-to-one and onto is called a __bijection__, and believe it or not, **bijection is the requirement** for a function to have an __inverse function__!
