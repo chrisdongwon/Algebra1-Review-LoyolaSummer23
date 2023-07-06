@@ -18,6 +18,6 @@ Thus, this idea is the formalization of what we refer to as the __vertical line 
 
 ## Inverse functions
 
-We say that the function $$f$$ is a collection (or a set) of infinitely many points $$(x, f(x))$$. We then say that the inverse of $$f$$, noted $$f^{-1}$$, is the collection of $$(f(x), x)$$, meaning the x and the y coordinates are swapped. Graphically. this corresponds to __flipping__ the graph of $$f$$ across the diagonal line, $$y = x$$. Notationwise, we need to be **extra careful** here, as -1 we see here is the reference to function inverse, not the multiplicative inverse!!! As an example, we see that the inverse function of $$y = x$$ is simply $$y = x$$, not $$x^{-1} = frac{1}{x}$$. **Later on in Geometry and Precalculus, you will be introduced to the notion of inverse trigonometric functions**. More on this in class. 
+We say that the function $$f$$ is a collection (or a set) of infinitely many points $$(x, f(x))$$. We then say that the inverse of $$f$$, noted $$f^{-1}$$, is the collection of $$(f(x), x)$$, meaning the x and the y coordinates are swapped. Graphically. this corresponds to __flipping__ the graph of $$f$$ across the diagonal line, $$y = x$$. Notationwise, we need to be **extra careful** here, as -1 we see here is the reference to function inverse, not the multiplicative inverse!!! As an example, we see that the inverse function of $$y = x$$ is simply $$y = x$$, not $$x^{-1} = frac{1}{x}$$.
 
 If time allows in class, I will introduce the notion of __one-to-one__ and __onto__ functions. 
