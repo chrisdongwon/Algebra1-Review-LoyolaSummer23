@@ -6,4 +6,18 @@ categories: lecture notes
 katex: True
 ---
 
-test
+In mathematics, there is a notion of __well-defined__ vs. __undefined__ (or ill-defined). It is implied that the functions we speak of are __well-defined__ functions in mathematics, and here is what that entails:
+
+* function: a designation of a number $$x$$ to $$y$$, where the set of numbers where $$x$$ originates from is referred to as the __domain__ and the __range__ (formally, codomain) for $$y$$. Here, $$x$$ is colloquially referred to as the **input** and $$y$$ as the **output**. 
+
+Just like how we had __conditions__ for our mathematical definition of fractions, we have a similar restriction on the notion of functions as well. In order for a function to be well defined, we say that an input is designated to one and only one output, if it has a designation. Otherwise, we say that the function is ill-defined, hence undefined. Formally, we say that: for all inputs $$x_1$$ and $$x_2$$, if $$x_1 = x_2$$, then $$f(x_1) = f(x_2)$$, where $$f(x_i) = y_i$$ for $$i = 1, 2$$. (Notice that f(x) and y refer to the same value, just a different notation). 
+
+In other words, if we have to choose an output for an input, we say that it is an ill-defined function. As an example, think of a parabola sideways: $$x = y^2$$. You will easily see that for any $$x$$ value greater than 0, there exist 2 possible output values for $$x$$. For an example, if $$x = 4$$, then $$y = 2$$ or $$y = -2$$. Once again, just one output per input is the requirement here. An output may have different input values, but per input, there must be exactly upto one output. 
+
+Thus, this idea is the formalization of what we refer to as the __vertical line test__. 
+
+## Inverse functions
+
+We say that the function $$f$$ is a collection (or a set) of infinitely many points $$(x, f(x))$$. We then say that the inverse of $$f$$, noted $$f^{-1}$$, is the collection of $$(f(x), x)$$, meaning the x and the y coordinates are swapped. Graphically. this corresponds to __flipping__ the graph of $$f$$ across the diagonal line, $$y = x$$. Notationwise, we need to be **extra careful** here, as -1 we see here is the reference to function inverse, not the multiplicative inverse!!! As an example, we see that the inverse function of $$y = x$$ is simply $$y = x$$, not $$x^{-1} = frac{1}{x}$$.
+
+If time allows in class, I will introduce the notion of __one-to-one__ and __onto__ functions. 
