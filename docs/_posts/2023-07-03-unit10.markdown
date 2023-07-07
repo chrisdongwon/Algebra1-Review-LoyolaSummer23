@@ -6,4 +6,20 @@ categories: lecture notes
 katex: True
 ---
 
-test
+## Linear Equations
+
+Suppose that $$(x_1,y_1)$$ and $$(x_2, y_2)$$ are distinct points on the Cartesian plane, meaning $$x_1 \not = x_2$$ and $$y_1 \not = y_2$$. Here are the necessary formulae we would need to rely on throughout the course:
+
+* change: $$\Delta x = x_2 - x_1$$ (Same thing for y, just change x to y)
+* slope: $$m = \frac{\Delta y}{\Delta x}$$. Do you see why $$\Delta x \not = 0$$?
+* point-slope: $$y - y_i = m(x - x_i)$$, where $$i = 1, 2$$ (choose one and stick with it)
+* slope-intercept: $$y = mx + b$$, where $$m$$ is the slope and $$b$$ is the $$y$$-intercept.
+
+## Quadratic Equations
+
+For equations of the form $$ax^2 + bx + c = 0$$, where $$a,b,c$$ are nonzero:
+
+* discriminant: $$D = \sqrt{b^2 - 4ac} = (b^2 - 4ac)^{\frac{1}{2}}$$. Here, the square root is the inverse function of $$y = x^2$$. 
+* quadratic formula: $$x = \frac{-b + D}{2a}$$. Notice that this formula refers to 2 separate values of $$x$$. 
+
+If time allows, I will demonstrate how a technique called "completing the square" implies the quadratic formula. You will once again see this in Precalculus in the discussion of conics. 
