@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Unit 11: Orthogonality"
+date:   2023-07-03 00:00:00 +0000
+categories: lecture notes
+katex: True
+---
+
+**Orthogonality** is simply a term referring to whether a line is parallel or perpendicular. If the lines are perpendicular, we say that they are __orthogonal__. 
+
+So, let us assess what we mean by parallel and perpendicular lines, as far as this class goes.
+
+* parallel: We say that two lines are parallel if they have the same slope regardless of the y-intercept value.
+* perpendicular: We say that two lines are perpendicular if the product (e.g. multiplication) of the slopes for the two lines equals -1.
+
+Let us see what this means symbolically. Suppose that the first line is represented by $$y = ax + b$$ and the second line is represented by $$z = cx + d$$.
+
+* parallel: The slope for the first line is $$a$$, and $$c$$ for the second one. Hence, $$a = c$$.
+* perpendicular: Here, the expression is $$ac = -1$$. This means that $$c$$ and $$d$$ are multiplicative inverses of each other (i.e. reciprocals), and if $$a$$ is positive, then $$c$$ is negative, and vice versa.
