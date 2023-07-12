@@ -6,7 +6,7 @@ categories: course update
 katex: True
 ---
 
-The Final Exam will be on **Thursday, 13 June 2023** and it will last the entire class period of 75 minutes.  
+The Final Exam will be on **Thursday, 13 July 2023** and it will last the entire class period of 75 minutes.  
 
 The exam will consist of at least one problem per unit.  
 Units 1 through 14 will be covered.  
@@ -19,4 +19,5 @@ You will be allowed one sheet of reference, front side only, with the following 
 
 You must show **all** work and explain all solutions to the fullest extent. Partial credit will be awarded where appropriate.  
 
-1. Evaluate $\frac{11}{(\frac{2}{3} - (-\frac{5}{7}))^3}$
+1. Evaluate $$\frac{11}{(\frac{2}{3} - (-\frac{5}{7}))^3}$$
+2. 
