@@ -16,4 +16,4 @@ So, let us assess what we mean by parallel and perpendicular lines, as far as th
 Let us see what this means symbolically. Suppose that the first line is represented by $$y = ax + b$$ and the second line is represented by $$z = cx + d$$.
 
 * parallel: The slope for the first line is $$a$$, and $$c$$ for the second one. Hence, $$a = c$$.
-* perpendicular: Here, the expression is $$ac = -1$$. This means that $$c$$ and $$d$$ are multiplicative inverses of each other (i.e. reciprocals), and if $$a$$ is positive, then $$c$$ is negative, and vice versa.
+* perpendicular: Here, the expression is $$ac = -1$$. This means that $$a$$ and $$c$$ are multiplicative inverses of each other (i.e. reciprocals), and furthermore, if $$a$$ is positive then $$c$$ is negative, and vice versa.
