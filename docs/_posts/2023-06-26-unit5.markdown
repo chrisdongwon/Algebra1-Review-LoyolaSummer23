@@ -22,7 +22,7 @@ Notice that this can also be used to see which fractions are greater than the ot
 
 ## Interval Notation
 
-Suppose that $$a, b$$ are numbers where $$a < b$$ and either $$a$$ or $$b$$ can be positive or negative infinity, respectively. Then, there are four possible configurations to the __interval notation__:  
+Suppose that $$a, b$$ are numbers where $$a < b$$ and either $$a$$ or $$b$$ can be negative or positive infinity, respectively. Then, there are four possible configurations to the __interval notation__:  
 
 * $$(a,b): a < x < b$$  
 * $$(a,b]: a < x \leq b$$  
