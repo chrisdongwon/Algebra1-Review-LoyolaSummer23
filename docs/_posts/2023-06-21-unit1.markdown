@@ -38,7 +38,7 @@ As far as addition and subtraction were concerned, it appears that for all integ
 
 For the most part, yes, with one critical exception - namely zero. To see why 0 does not have a reciprocal, i.e. the multiplicative inverse, let us consider what we mean by being able to divide in the first place. As a motivating example, we see that 3 divides into 27 because 3 times 9 is 27. We see that 5 divides into 40 because 5 times 8 is 40.  
 
-Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers between 2 and 3 and it appears that such figure is precisely the requirement for 2 to be divisible by 5. Let us formalize this intuition.  
+Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers between 2 and 3 and it appears that such figure is precisely the requirement for 5 to be divisible by 2. Let us formalize this intuition.  
 
 We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$ (More on variables in Unit 2).  
 
