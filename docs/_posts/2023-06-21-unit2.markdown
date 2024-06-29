@@ -26,7 +26,7 @@ To see why the second assertion is true, consider the following. Let's say we wa
 
 * Provided that the fractions in comparison are both positive, how do we see which fraction is greater? There are a few techniques to facilitate this:
   1. If the denominators are the same, simply compare the numerators (E.g. How many slices of pie did I eat vs. did you eat?)  
-  2. If the numerators are the same, then compare the denominators (E.g. Is a slice of a whole pizza cut in half bigger than a slice of a whole pizze sliced up in 20 equally sized slices?) Notice that greater the denominator, smaller the quantity.  
+  2. If the numerators are the same, then compare the denominators (E.g. Is a slice of a whole pizza cut in half bigger than a slice of a whole pizza sliced up in 20 equally sized slices?) Notice that greater the denominator, smaller the quantity.  
   3. Algebraically, $$\frac{a}{b} < \frac{c}{d}$$ if $$ad < bc$$, provided that the fractions in comparison are both positive to begin with.
   
 ## Addition and Multiplication in Rational Numbers
