@@ -13,7 +13,7 @@ Let us begin with some basic notions of arithmetic (number theory):
 * Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$  
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
 
-Notice that the only reasonable operation to perform on the natural numbers is addition, and consqeuently multiplication, which is simply repeated addition in our case.  
+Notice that the only reasonable operation to perform on the natural numbers is addition, and conseqeuently multiplication, which is simply repeated addition in our case.  
 
 Also, it appears that we just need 0 and 1 in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol 4 is simply a representation of four instance of 1's in series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
 
@@ -38,7 +38,7 @@ As far as addition and subtraction were concerned, it appears that for all integ
 
 For the most part, yes, with one critical exception - namely zero. To see why 0 does not have a reciprocal, i.e. the multiplicative inverse, let us consider what we mean by being able to divide in the first place. As a motivating example, we see that 3 divides into 27 because 3 times 9 is 27. We see that 5 divides into 40 because 5 times 8 is 40.  
 
-Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers between 2 and 3 and it appears that such figure is precisely the requirement for 5 to be divisible by 2. Let us formalize this intuition.  
+Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers strictly between 2 and 3, and it appears that such figure is precisely the requirement for 5 to be divisible by 2. Let us formalize this intuition.  
 
 We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$ (More on variables in Unit 2).  
 
